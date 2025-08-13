@@ -1,8 +1,8 @@
-function totalFine(fine) {
-    if (typeof fine != Number || fine <= 0) {
+function totalFine(fare) {
+    if (typeof fare != Number || fare <= 0) {
         return "Invalid";
     }
-    const total_fine = fine + fine * (20 / 100) + 30;
+    const total_fine = fare + fare * (20 / 100) + 30;
     return total_fine;
 }
-console.log(totalFine(0));
+console.log(totalFine("Gorib tai ticket katinai"));
