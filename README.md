@@ -102,7 +102,7 @@ Output Object:
   pass: totalPassedSubjects,
   fail: totalFailedSubjects
 }
-
+```
 ---
 ## 👨‍💻 Author
 
